@@ -16,11 +16,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedFtoCommon.sh]] | 
 "
 FILE="
-<<<<<<< HEAD
 *  /This File/ :: /bisos/git/auth/bxRepos/bisos/ftoProc.sh 
-=======
-*  /This File/ :: /bisos/git/auth/bxRepos/bisos/base/ftoProc.sh 
->>>>>>> ec24403740b198038b5212c98abd22b0d767050d
 "
 if [ "${loadFiles}" == "" ] ; then
     /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@" 
@@ -57,7 +53,6 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-<<<<<<< HEAD
 bpip1
 gatherer
 overview
@@ -66,8 +61,6 @@ bsip3
 base
 bsip4
 comeega
-=======
->>>>>>> ec24403740b198038b5212c98abd22b0d767050d
 "
 # }}} DBLOCK-nodesList
 ####+END:
