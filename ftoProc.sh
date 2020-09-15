@@ -57,8 +57,6 @@ bpip1
 gatherer
 overview
 defaults
-bsip3
-base
 bsip4
 comeega
 "
